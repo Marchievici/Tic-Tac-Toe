@@ -60,7 +60,6 @@ function clearBoard() {
 	}
 	document.getElementById("statusMessage").innerHTML = "";
 	playerSwitch = 1;
-	return false;
 }
 //checks if the cell is empty
 function isFilled(checkCell) {
